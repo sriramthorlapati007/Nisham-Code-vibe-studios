@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.Timer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.Timer h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.Timer h1 span{
+    color: #ff2963;
+}
+input{
+    background:darkmagenta;
+    color: #fff;
+    min-width: 100px;
+    margin: 20px 10px;
+    font-size: 17px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    min-width: 100px;
+    margin: 20px 10px;
+    padding: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.Timer1{
+    display:flex;
+    justify-content:center;
+}
+.heading{
+    background: #a62447;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.time{
+    background:black;
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+
+
+
+
